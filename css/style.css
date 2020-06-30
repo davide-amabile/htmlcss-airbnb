@@ -12,7 +12,16 @@
   padding: 10px;
   margin: 5px;
   border: 1px solid black;
-  background-color: rgba(0, 0, 0, 1);
+}
+
+.layover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+
 }
 /* prima foto */
 .tokyo {
@@ -26,7 +35,7 @@ h1 {
   transform: translate(-50%, -50%);
   font-size: 60px;
   color: #ffffff;
-  text-shadow: 8px 8px 10px #333;
+  text-shadow: 8px 8px 10px #000000;
 }
 
 /* seconda foto */
